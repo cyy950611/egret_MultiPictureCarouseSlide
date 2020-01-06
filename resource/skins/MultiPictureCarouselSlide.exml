@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MultiPictureCarouselSlideSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f7982f0ff" ></w:Config>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x919191"/>
+	<e:Button id="lastBtn" label="上一个" verticalCenter="0" anchorOffsetY="10" left="160"/>
+	<e:Button id="nextBtn" label="下一个" verticalCenter="0" right="160"/>
+	<e:Scroller id="scroller" width="256" height="224" x="384" y="272">
+		<e:Group id="group" anchorOffsetY="0" height="224" anchorOffsetX="0" width="256">
+			<e:layout>
+				<e:HorizontalLayout gap="6"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>
